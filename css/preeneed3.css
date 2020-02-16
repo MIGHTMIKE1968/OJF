@@ -1,0 +1,315 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+background: url(ojfleafbackgrounds.png);
+text-align:center;
+height: 100%;
+min-height: 100%;
+max-height: 100%;
+width: 100%;
+background-size: 100% 100%;
+background-position: center;
+max-width: 100%;
+min-width: 100%;
+top: 0;
+left: 0;
+padding: 0;
+margin: 0;
+}
+
+.navbar-inverse{
+	background: #1C0497;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #F9E528;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #999;
+}
+
+.header {
+	padding-top: 50px;
+}
+
+h1{
+	text-align: center;
+	font-family: Droid Serif;
+	font-style: normal;
+	font-size: 28pt;
+	color: #900;
+	float: none;
+	padding-top: 130px;
+	padding-bottom: 30px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-shadow: 3px 3px 3px rgba(197,189,190,1.00);
+} 
+
+.letter {
+	font-family: Great Vibes;
+	font-size: 42pt;
+}
+
+.video {
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	padding-top: 25px;
+}
+
+h4{
+	font-family: Droid Serif;
+	font-size: 28pt;
+	color: #900;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	float: none;
+}
+
+h5 {
+	font-family: Source Sans Pro;
+	color: #F9E528;
+	font-weight: normal;
+	font-size: 11pt;
+	padding-bottom: 5px;
+}
+
+
+.ozella{
+	color: #17047C;
+	font-size: 17pt;
+	padding-top: 10px;
+}
+
+#the_footer{
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-size: 15pt;
+	background-color: #1C0497;
+	color: #FCF8F8;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.arrow {
+	font-family: Source Sans Pro;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 10pt;
+	text-indent: 0px;
+}
+
+a[href^=http]{color:white;}
+a[href^="contactus2.html"]{color:white;text-decoration: none;}
+a[href^="funerals3.html"]{color:white;text-decoration: none;}
+a[href^="community.html"]{color:white;text-decoration: none;}
+a[href^="#ozella"]{color:white;text-decoration: none;}
+
+a:hover { 
+    color: #999;
+	background-color: transparent;
+}
+
+.sonic {
+	color: white;
+}
+
+.circle {
+	color: #F9E528;
+	font-size: 20pt;
+}
+
+.bullet {
+	color: white;
+	font-size: 16pt;
+}
+
+.it {
+	color: white;
+	font-size: 10pt;
+}
+
+.social {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.social2 {
+  max-width: 100%;
+}
+	
+.envelope {
+	color: white;
+}
+
+.envelope:hover { 
+    color: #999;
+	background-color: transparent;
+}
+
+@keyframes upper {
+  0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
+    opacity:.99; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+  }
+  20%,21.999%,63%,63.999%,65%,69.999% {
+    opacity:0.4; text-shadow: none; 
+  }
+}
+@keyframes lower {
+  0%,12%,18.999%,23%,31.999%,37%,44.999%,46%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100% {
+    opacity:0.99; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+  }
+  19%,22.99%,32%,36.999%,45%,45.999%,50%,50.99%,59%,60.999%,69%,70.999%,86%,95.999% { 
+    opacity:0.4; text-shadow: none; 
+  }
+}
+
+.mySlides {
+	display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  font-family: Source Sans Pro;
+  color: #520594;
+  font-size: 22pt;
+  word-spacing: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  font-weight: 800;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  font-family: Source Sans Pro;
+  color: #520594;
+  font-size: 14pt;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 6.5s;
+  animation-name: fade;
+  animation-duration: 6.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+#container {
+	background: rgb(246,248,249); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+	margin-right: 75px;
+	margin-left: 75px;
+	margin-bottom: 50px;	
+}
+
+.line {
+	display:block;
+	border: none;
+	color: orange;
+	height: 2px;
+	background: black;
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+	width: 80%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+	

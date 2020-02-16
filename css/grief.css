@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: none;
+	text-align:center;
+	height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    max-width: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-inverse{
+	background: #1C0497;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #F9E528;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #999;
+}
+
+.header {
+	padding-top: 50px;
+}
+
+h1{
+	text-align: center;
+	font-family: Droid Serif;
+	font-style: normal;
+	font-size: 3.5rem;
+	color: #900;
+	float: none;
+	padding-top: 120px;
+	padding-bottom: 30px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-shadow: 3px 3px 3px rgba(197,189,190,1.00);
+} 
+
+.letter {
+	font-family: Great Vibes;
+	font-size: 6.5rem;
+}
+
+h2{
+	font-weight: bold;
+	font-variant: normal;
+	font-style: bold;
+	font-size: 3.8rem;
+	font-family: Droid Serif;
+    text-align: center;
+	color: #17047C;
+	text-shadow: 3px 3px 3px rgba(197,189,190,1.00);
+}
+
+h3{
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	font-size: 2.4rem;
+	font-family: Source Sans Pro;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+	margin-left: 35px;
+	margin-right: 35px;
+    line-height: normal;
+}
+
+h4{
+	font-family: Droid Serif;
+	font-size: 28pt;
+	color: #900;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	float: none;
+}
+
+h5 {
+	font-family: Source Sans Pro;
+	color: #F9E528;
+	font-weight: normal;
+	font-size: 11pt;
+	padding-bottom: 5px;
+}
+
+.social {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.social2 {
+  max-width: 100%;
+}
+
+.ozella{
+	color: #17047C;
+	font-size: 17pt;
+	padding-top: 10px;
+}
+
+#the_footer{
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-size: 15pt;
+	background-color: #1C0497;
+	color: #FCF8F8;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.arrow {
+	font-family: Source Sans Pro;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 10pt;
+	text-indent: 0px;
+}
+
+a[href^=http]{color:white;}
+a[href^="contactus2.html"]{color:white;text-decoration: none;}
+a[href^="funerals3.html"]{color:white;text-decoration: none;}
+a[href^="community.html"]{color:white;text-decoration: none;}
+a[href^="#ozella"]{color:white;text-decoration: none;}
+
+a:hover { 
+    color: #999;
+	background-color: transparent;
+}
+
+.sonic {
+	color: white;
+}
+
+.circle {
+	color: #F9E528;
+	font-size: 20pt;
+}
+
+.bullet {
+	color: white;
+	font-size: 16pt;
+}
+
+.it {
+	color: white;
+	font-size: 10pt;
+}
+	
+.envelope {
+	color: white;
+}
+
+.envelope:hover { 
+    color: #999;
+	background-color: transparent;
+}
+
+#urn {
+	background: url("../img/flowers1.jpg") no-repeat center fixed;
+	border: #999 solid 1px;
+	box-shadow: rgb(110, 110, 110) 8px 8px 10px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.number {
+	color: #D32326;
+	font-weight: bold;
+}
+
+.line {
+	display:block;
+	border: none;
+	color: orange;
+	height: 2px;
+	background: black;
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+	width: 80%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.header{
+	font-weight: bold;
+	font-variant: normal;
+	font-style: bold;
+	font-size: 3.8rem;
+	font-family: Droid Serif;
+	color: #17047C;
+	text-shadow: 3px 3px 3px rgba(197,189,190,1.00);
+}
+
+.video {
+	text-align: center;
+}
+
+.box {
+	background: white;
+	border: rgba(15,77,39,1) solid 1px;
+	box-shadow: rgb(110, 110, 110) 8px 8px 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+.title {
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: bold;
+	font-size: 2.2rem;
+	color: #1C0497;
+}
+
+.vidtittle {
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-size: 13pt;
+	color: #1C0497;
+}
+
+.row a {
+    color: #900;
+	text-align: center;
+	text-decoration: none;
+	font-family: Source Sans Pro;
+	font-size: 12pt;
+}
+
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+
+
+	
