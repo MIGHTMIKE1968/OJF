@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background: none;
+	text-align:center;
+	background-size:cover;
+}
+
+.navbar-inverse{
+	background: #1C0497;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #F9E528;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #999;
+}
+
+.header {
+	padding-top: 50px;
+}
+
+h1{
+	font-family: Source Sans Pro;
+    text-align: left;
+	font-style: normal;
+	font-size: 2.3rem;
+	color: black;
+    padding: 120px 0 30px 0;
+    margin: 0px 90px 0px 90px;
+} 
+
+
+
+h4{
+	font-family: Droid Serif;
+	font-size: 28pt;
+	color: #900;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	float: none;
+}
+
+
+h5 {
+	font-family: Source Sans Pro;
+	color: #F9E528;
+	font-weight: normal;
+	font-size: 1.5rem;
+	padding-bottom: 5px;
+}
+
+.row {
+    background-color: white;
+    border: rgb(220, 220, 222) solid 1px;
+    margin: 80px 40px 0 40px;
+    box-shadow: rgb(110, 110, 110) 8px 8px 10px;
+}
+
+.logo {
+    padding: -10px 0 0 0;
+}
+
+
+a[href^=http]{color:white;}
+a[href^="#ozella"]{color:white;text-decoration: none;}
+
+a:hover { 
+    color: #999;
+	background-color: transparent;
+}
+
+.ozella{
+	color: #17047C;
+	font-size: 1.5rem;
+	padding-top: 10px;
+}
+
+#the_footer{
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	background-color: #1C0497;
+	color: #FCF8F8;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.arrow {
+	font-family: Source Sans Pro;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 2rem;
+	text-indent: 0px;
+}
+
+a:hover { 
+    color: #999;
+	background-color: transparent;
+}
+
+.sonic {
+	color: white;
+}
+
+.circle {
+	color: #F9E528;
+	font-size: 20pt;
+}
+
+.bullet {
+	color: white;
+	font-size: 22px;
+}
+
+.it {
+	color: white;
+	font-size: 12px;
+}
+
+.social {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.social2 {
+  max-width: 100%;
+}
+	
+.envelope {
+	color: white;
+}
+
+.envelope:hover { 
+    color: #999;
+	background-color: transparent;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+
+	

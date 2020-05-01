@@ -73,7 +73,9 @@
 			<h3><strong>Monday - Friday • 8:30 AM - 6:30 PM</strong></h3>
 			<?php include("store-hours2.php"); ?>
 			<h3>
-				<p><span class="slant">tel. </span><strong>1.314.652.3305</strong> • <span class="slant">fax.</span> <strong>1.314.652.3309</strong> • <span class="slant">cell.</span> <strong>1.314.719.9643</strong> • <span class="slant">email. </span><a href="mailto:info@ozellajfosterfh.com">info@ozellajfosterfh.com</a></p>
+				<p><span class="slant">tel. </span><strong>1.314.652.3305</strong> • <span class="slant">fax.</span> <strong>1.314.652.3309</strong> • <span class="slant">cell.</span> <strong>1.314.719.9643</strong> • <span class="slant">email. 
+                </span><a href="mailto:ozellafoster@att.net">ozellafoster@att.net</a></p>
+
 			</h3><br>
 		</div>
 	
@@ -86,61 +88,44 @@
            	</h3><br>
            		
            	<h3>
-				<p><strong>LaNelle M. Jones-Jackson</strong></p>
+				<p><strong>Christopher R. Jones</strong></p>
           		<p class="title">President</p>
            	</h3><br>
            		
            	<h3>
-				<p><strong>Christopher R. Jones</strong></p>
-          		<p class="title">Vice President</p>
+				<p><strong>William Foster</strong></p>
+          		<p class="title">General Manager</p>
+           	</h3><br>
+            
+            <h3>
+				<p><strong>Rev. Dr. Duane Eric Belford</strong></p>
+          		<p class="title">Chaplin</p>
            	</h3><br>
            		
-           	<h3>
-				<p><strong>Thomas Foster, Sr.</strong></p>
-          		<p class="title">Building Manager</p>
-           	</h3><br>
-           		
-           	<h3>
-				<p><strong>Reverend William Johnson, Sr.</strong></p>
-          		<p class="title">Ministerial Staff</p>
-           	</h3><br>
-           		
-           	<h3>
-				<p><strong>Henry L. Duckworth</strong></p>
-          		<p class="title">Licensed Funeral Director</p>
-           	</h3><br>
 		</div>
 		
 		<div class="col-lg-6 col-sm-6">
-			<h3>
-				<p><strong>Samuel Farmer</strong></p>
-          		<p class="title">Licensed Funeral Director</p>
+            
+            <h3>
+				<p><strong>LaNelle M. Jones-Jackson</strong></p>
+          		<p class="title">C.F.O.</p>
            	</h3><br>
-           		
+            
+           	<h3>
+				<p><strong>Demonser Burch</strong></p>
+          		<p class="title">Assistant Director</p>
+           	</h3><br>
+            
            	<h3>
 				<p><strong>Al Yokley</strong></p>
           		<p class="title">Transportation</p>
            	</h3><br>
-           		
-           	<h3>
-				<p><strong>William Foster, Sr.</strong></p>
-          		<p class="title">Staff Representative</p>
+            
+            <h3>
+				<p><strong>Henry L. Duckworth</strong></p>
+          		<p class="title">Licensed Funeral Director</p>
            	</h3><br>
            		
-           	<h3>
-				<p><strong>Ronald Kelly</strong></p>
-          		<p class="title">Staff Representative</p>
-           	</h3><br>
-           		
-           	<h3>
-				<p><strong>Michael Johnson</strong></p>
-          		<p class="title">Minister Of Music</p>
-           	</h3><br>
-           		
-           	<h3>
-				<p><strong>Maria A. Jones</strong></p>
-          		<p class="title">Cosmetologist - "Hair By Pumpkin"</p>
-           	</h3><br>
 		</div>
 		
 		

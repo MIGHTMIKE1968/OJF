@@ -2,13 +2,11 @@
 /* CSS Document */
 
 body {
-	background: url(ojfleafbackgrounds.png);
-	text-align:center;
-	height: 100%;
+text-align:center;
+height: 100%;
 min-height: 100%;
 max-height: 100%;
 width: 100%;
-background-size: 100% 100%;
 background-position: center;
 max-width: 100%;
 min-width: 100%;
@@ -49,7 +47,7 @@ h1{
 	padding-bottom: 30px;
 	padding-right: 0px;
 	padding-left: 0px;
-	margin-top: 0px;
+	margin-top: 10px;
 	margin-bottom: 0px;
     text-shadow: 3px 3px 3px rgba(197,189,190,1.00);
 } 
@@ -61,32 +59,23 @@ h1{
 
 #art {
 	background: url("../img/flowers1.jpg") no-repeat center fixed;
-	border: #999 solid 1px;
 	box-shadow: rgb(110, 110, 110) 8px 8px 10px;
-	margin-left: 1px;
-	margin-right: 1px;
     background-size:cover;
 }
 
-.photo {
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 5px;
+.row {
+    margin: 0px 0 20px 0;
 }
+
 
 h2{
 	font-weight: normal;
 	font-variant: normal;
 	text-align: left;
-	font-size: 1.9rem;
+	font-size: 2.2rem;
 	font-family: Source Sans Pro;
 	color: black;
-	margin-left: 30px;
-	margin-right: 30px;
-	padding-top: 5px;
-	padding-right: 0px;
-	padding-left: 0px;
-	padding-bottom: 0px;	
+    margin: 5px 60px 0 60px;	
 }
 
 h3{
@@ -110,17 +99,6 @@ h4{
 	float: none;
 }
 
-.price {
-	font-weight: normal;
-	font-variant: normal;
-	font-style: normal;
-	font-size: 26pt;
-	font-family: Source Sans Pro;
-	color: #900;
-	text-align: center;
-	padding-bottom: 0px;
-	
-}
 
 h5 {
 	font-family: Source Sans Pro;
@@ -137,21 +115,12 @@ h5 {
 	padding-top: 10px;
 }
 
-p {
-    text-indent: 30px;
-	margin-left: 30px;
-	margin-right: 30px;
-}
-
-.red{
-	color: #84090C;
-	font-weight: bold;
-}
 
 .date {
 	font-family: Source Sans Pro;
-	font-size: 24pt;
-	padding-bottom: 60px;
+	font-size: 4rem;
+    margin: 70px 0 0 0;
+    padding: 0px 0 50px 0;
 }
 
 #the_footer{
@@ -215,47 +184,37 @@ a:hover {
 
 .notice {
 	font-family: Source Sans Pro;
-	color: black;
+	color: #1C0497;
 	text-align: center;
-	bottom: 20px;
-	font-weight: bold;
+	font-weight: 900;
 	font-size: 20pt;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 5px;
-	padding-left: 0px;
-	margin-left: 0px;
-	margin-right: 30px;
+	margin: 0 0 -20px 0;
+    padding-top: 10px;
 }
 
-.change {
+.notice2 {
 	font-family: Source Sans Pro;
+	color: #1C0497;
 	text-align: center;
-	color: black;
-	bottom: 20px;
-	font-weight: bold;
-	font-size: 13pt;
-	padding-bottom: 5px;
-	margin-right: 30px;
-	margin-left: 10px;
-}
-.inquire {
-	font-family: Source Sans Pro;
-	color: #84090C;
-	text-align: center;
-	font-weight: bold;
-	font-style: italic;
-	font-size: 15pt;
-	margin-right: 30px;
+	font-weight: 900;
+	font-size: 20pt;
+	padding: 0 0 20px 0;
 }
 
-.prices{
-	font-family: Source Sans Pro;
-	font-size: 15pt;
-	color: black;
-	padding-top: 0px;
-	padding-bottom: 5.9px;
-	text-align: center;
+button {
+    background-color: #900;
+    padding: 10px 40px 10px 40px;
+    font-size: 2.2rem;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
 }
 
 .envelope {

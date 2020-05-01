@@ -202,6 +202,17 @@ a:hover {
 	background-color: transparent;
 }
 
+.important {
+    font-family: Source Sans Pro;
+    font-size: 4rem;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 * {box-sizing:border-box}
 
 
